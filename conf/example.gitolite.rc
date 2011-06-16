@@ -25,9 +25,9 @@ $GL_CONF_COMPILED="$GL_ADMINDIR/conf/gitolite.conf-compiled.pm";
 # ------------------------------------------------------------------------------
 # most often used/changed variables
 # ------------------------------------------------------------------------------
-$GL_WILDREPOS = 0;
+$GL_WILDREPOS = 1;
 $PROJECTS_LIST = $ENV{HOME} . "/projects.list";
-$REPO_UMASK = 0077;
+$REPO_UMASK = 0007;
 
 # ------------------------------------------------------------------------------
 # variables with an efficiency/performance impact
